@@ -1,0 +1,20 @@
+---
+name: NoWeather
+author: KhoaHoang
+api: [1.0.0, 1.13.0, 1.14.0, 2.0.0, 3.0.0, 4.0.0]
+version: "1.0-a"
+main: NoWeather\NoWeather
+
+
+commands:
+  weatherswitch:
+    description: Turn on\off the annoying raining weather! :)
+    aliases: [wswitch]
+    permission: noweather.weather.switch
+
+permissions:
+  noweather.weather.switch:
+    description: Allows op to switch the weather on\off!
+    default: op
+#Finished!
+---
